@@ -1,11 +1,9 @@
-package kz.zhanbolat.jclass.action.calculator;
+package kz.zhanbolat.jclass.calculator;
 
 import java.math.BigDecimal;
 import java.util.List;
 
 public class TotalWeightCalculator implements Calculator {
-	
-	final static BigDecimal gramPerCarat = new BigDecimal(0.2);
 	
 	public BigDecimal calculate(List<Number> numbers) {
 		BigDecimal totalWeight = BigDecimal.ZERO;

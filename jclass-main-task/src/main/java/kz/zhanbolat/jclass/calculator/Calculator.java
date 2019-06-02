@@ -1,4 +1,4 @@
-package kz.zhanbolat.jclass.action.calculator;
+package kz.zhanbolat.jclass.calculator;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -7,38 +7,68 @@ import java.util.List;
 
 public class Necklace {
 	
-	private List<Rock> rocks;
+	private List<Stone> stones;
 	
-	public Necklace(List<Rock> rocks) {
-		this.rocks = rocks;
+	public Necklace(List<Stone> stones) {
+		this.stones = stones;
 	}
 	
-	public Necklace(Rock... rocks) {
-		this.rocks = Arrays.asList(rocks);
+	public Necklace(Stone... stones) {
+		this.stones = Arrays.asList(stones);
 	}
 	
 	public Necklace() {
-		rocks = new ArrayList<>();
+		stones = new ArrayList<>();
 	}
 	
-	public List<Rock> getRocks() {
-		return Collections.unmodifiableList(rocks);
+	public List<Stone> getStones() {
+		return Collections.unmodifiableList(stones);
 	}
 	
-	public void setRocks(List<Rock> rocks) {
-		this.rocks = rocks;
+	public void setStones(List<Stone> stones) {
+		this.stones = stones;
 	}
 	
-	public void setRocks(Rock... rocks) {
-		this.rocks = Arrays.asList(rocks);
+	public void setStones(Stone... stones) {
+		this.stones = Arrays.asList(stones);
 	}
 	
-	public Rock get(int index) {
-		return rocks.get(index);
+	public Stone get(int index) {
+		return stones.get(index);
 	}
 	
-	public void add(Rock rock) {
-		rocks.add(rock);
+	public void add(Stone stone) {
+		stones.add(stone);
+	}
+
+	@Override
+	public String toString() {
+		return "Necklace [stones=" + stones + "]";
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((stones == null) ? 0 : stones.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Necklace other = (Necklace) obj;
+		if (stones == null) {
+			if (other.stones != null)
+				return false;
+		} else if (!stones.equals(other.stones))
+			return false;
+		return true;
 	}
 	
 }

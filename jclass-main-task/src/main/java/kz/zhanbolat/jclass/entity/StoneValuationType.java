@@ -1,5 +1,5 @@
 package kz.zhanbolat.jclass.entity;
 
-public enum RockValueType {
+public enum StoneValuationType {
 	LOW, MIDDLE, HIGH
 }
