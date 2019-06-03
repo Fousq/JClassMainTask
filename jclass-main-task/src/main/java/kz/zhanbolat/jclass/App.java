@@ -23,7 +23,7 @@ import kz.zhanbolat.jclass.exception.RangeException;
 import kz.zhanbolat.jclass.exception.StoneException;
 import kz.zhanbolat.jclass.exception.StoneTransparencyException;
 import kz.zhanbolat.jclass.finder.StonesFinder;
-import kz.zhanbolat.sort.SortStones;
+import kz.zhanbolat.jclass.sort.SortStones;
 
 /**
  * Hello world!
