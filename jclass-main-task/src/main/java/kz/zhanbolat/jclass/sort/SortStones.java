@@ -7,7 +7,7 @@ import java.util.List;
 import kz.zhanbolat.jclass.entity.Stone;
 
 public class SortStones {
-	public static void sort(List<Stone> stones, Comparator<Rock> comparator) {
+	public static void sort(List<Stone> stones, Comparator<Stone> comparator) {
 		Collections.sort(stones, comparator);
 	}
 }

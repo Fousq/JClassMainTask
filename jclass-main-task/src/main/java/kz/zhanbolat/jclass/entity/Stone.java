@@ -1,10 +1,14 @@
 package kz.zhanbolat.jclass.entity;
 
 import java.math.BigDecimal;
+
 import java.math.BigInteger;
 import java.util.Objects;
+import java.util.Comparator;
 
 import kz.zhanbolat.jclass.exception.StoneException;
+import kz.zhanbolat.jclass.exception.StoneTransparencyException;
+import kz.zhanbolat.jclass.validator.StoneTransparencyValidator;
 
 public abstract class Stone {
 	private String name;
@@ -20,19 +24,19 @@ public abstract class Stone {
 		this.name = name;
 		this.cost = cost;
 		this.weight = weight;
-		this.transparency = transparency;
+		setTransparency(transparency);
 		setValuation(valuation);
 		setRarity(rarity);
 	}
 	
 	public Stone(String name, long cost, int weight, double transparency, 
-			StoneValuationType valuation, RarityType rarity) {
+			StoneValuationType valuation, RarityType rarity) throws StoneException {
 		this.name = name;
 		this.cost = BigInteger.valueOf(cost);
 		this.weight = weight;
-		this.transparency = BigDecimal.valueOf(transparency);
-		this.valuation = valuation;
-		this.rarity = rarity;
+		setTransparency(transparency);
+		setValuation(valuation);
+		setRarity(rarity);
 	}
 	
 	public String getName() {
@@ -67,11 +71,21 @@ public abstract class Stone {
 		return transparency;
 	}
 
-	public void setTransparency(BigDecimal transparency) {
+	public void setTransparency(BigDecimal transparency) 						
+		throws StoneTransparencyException {
+		if (!StoneTransparencyValidator.validTransparency(transparency)) {
+			throw new StoneTransparencyException("transparency should be "
+													+ "between 0 and 1.");
+		}
 		this.transparency = transparency;
 	}
 	
-	public void setTransparency(double transparency) {
+	public void setTransparency(double transparency) 
+								throws StoneTransparencyException {
+		if (!StoneTransparencyValidator.validTransparency(transparency)) {
+			throw new StoneTransparencyException("transparency should be "
+													+ "between 0 and 1.");
+		}
 		this.transparency = BigDecimal.valueOf(transparency);
 	}
 	
@@ -128,6 +142,15 @@ public abstract class Stone {
 		return Objects.equals(cost, other.cost) && Objects.equals(name, other.name) && rarity == other.rarity
 				&& Objects.equals(transparency, other.transparency) && valuation == other.valuation
 				&& weight == other.weight;
+	}
+	
+	public static class CompareByValuation implements Comparator<Stone> {
+		
+		@Override
+		public int compare(Stone o1, Stone o2) {
+			return o1.getValuation().compareTo(o2.getValuation());
+		}
+		
 	}
 	
 }

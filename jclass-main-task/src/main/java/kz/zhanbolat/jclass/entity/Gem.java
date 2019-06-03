@@ -10,12 +10,20 @@ import kz.zhanbolat.jclass.exception.StoneException;
 public class Gem extends Stone {
 	private FeatureType feature;
 	
-	public Gem(String name, BigInteger cost, int weight, BigDecimal transparency, StoneValuationType valuation,
-			RarityType rarity, FeatureType feature) throws StoneException {
+	public Gem(String name, BigInteger cost, int weight, BigDecimal transparency, 
+			StoneValuationType valuation, RarityType rarity, FeatureType feature)
+										throws StoneException {
 		super(name, cost, weight, transparency, valuation, rarity);
 		this.feature = feature;
 	}
 
+	public Gem(String name, long cost, int weight, double transparency, 
+			StoneValuationType valuation, RarityType rarity, 
+			FeatureType feature) throws StoneException {
+		super(name, cost, weight, transparency, valuation, rarity);
+		this.feature = feature;
+	}
+	
 	@Override
 	public void setRarity(RarityType rarity) throws StoneException {
 		if (rarity != RarityType.RARE) {

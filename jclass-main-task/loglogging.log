@@ -1,0 +1,3 @@
+21:56:07 INFO  jclass.AppTest: INFO
+21:56:07 ERROR jclass.AppTest: ERROR
+21:56:07 FATAL jclass.AppTest: FATAL

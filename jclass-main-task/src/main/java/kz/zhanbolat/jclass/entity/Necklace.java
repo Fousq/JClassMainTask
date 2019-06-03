@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 public class Necklace {
 	
@@ -43,15 +44,16 @@ public class Necklace {
 
 	@Override
 	public String toString() {
-		return "Necklace [stones=" + stones + "]";
+		StringBuilder builder = new StringBuilder();
+		builder.append("Necklace [stones=");
+		builder.append(stones);
+		builder.append("]");
+		return builder.toString();
 	}
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((stones == null) ? 0 : stones.hashCode());
-		return result;
+		return Objects.hash(stones);
 	}
 
 	@Override
@@ -63,12 +65,7 @@ public class Necklace {
 		if (getClass() != obj.getClass())
 			return false;
 		Necklace other = (Necklace) obj;
-		if (stones == null) {
-			if (other.stones != null)
-				return false;
-		} else if (!stones.equals(other.stones))
-			return false;
-		return true;
+		return Objects.equals(stones, other.stones);
 	}
 	
 }

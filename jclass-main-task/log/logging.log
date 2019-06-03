@@ -1,0 +1,25 @@
+06:41:49 INFO  jclass.GemTest: Gem [feature=SPECIAL_SHININGStone [name=Diamond, cost=100000, weight=100, transparency=1, valuation=HIGH, rarity=RARE]]
+06:41:49 INFO  jclass.GemTest: Gem [feature=COLOR_CHANGINGStone [name=Topaz, cost=1000, weight=100, transparency=0.9, valuation=HIGH, rarity=RARE]]
+06:41:49 ERROR jclass.GemTest: Not a gem, because of valuation of the stone.
+06:41:49 ERROR jclass.GemTest: Not a gem, because of valuation of the stone.
+06:41:49 ERROR jclass.GemTest: Not a gem, because of rarity of the stone.
+06:41:49 ERROR jclass.GemTest: transparency should be between 0 and 1.
+06:41:49 ERROR jclass.GemTest: transparency should be between 0 and 1.
+07:01:04 INFO  jclass.GemTest: Gem [feature=SPECIAL_SHININGStone [name=Diamond, cost=100000, weight=100, transparency=1, valuation=HIGH, rarity=RARE]]
+07:01:04 INFO  jclass.GemTest: Gem [feature=COLOR_CHANGINGStone [name=Topaz, cost=1000, weight=100, transparency=0.9, valuation=HIGH, rarity=RARE]]
+07:01:04 ERROR jclass.GemTest: Not a gem, because of valuation of the stone.
+07:01:04 ERROR jclass.GemTest: Not a gem, because of valuation of the stone.
+07:01:04 ERROR jclass.GemTest: Not a gem, because of rarity of the stone.
+07:01:04 ERROR jclass.GemTest: transparency should be between 0 and 1.
+07:01:04 ERROR jclass.GemTest: transparency should be between 0 and 1.
+07:01:21 INFO  jclass.TotalWeightCalculatorTest: Total weight in gram: 200218.0086004000111143321546380846598367497790604829788208007812500
+07:02:33 INFO  jclass.TotalWeightCalculatorTest: Total weight in gram: 200218.0086004000111143321546380846598367497790604829788208007812500
+07:02:33 INFO  jclass.TotalWeightCalculatorTest: Total weight in carat: 5005450.2151
+07:02:33 INFO  jclass.TotalWeightCalculatorTest: Total weight without converting: 1001090.0430020
+07:03:09 INFO  jclass.TotalWeightCalculatorTest: Total weight in gram: 200218.0086004000111143321546380846598367497790604829788208007812500
+07:03:09 INFO  jclass.TotalWeightCalculatorTest: Total weight in carat: 5005450.2151
+07:03:09 INFO  jclass.TotalWeightCalculatorTest: Total weight without converting: 1001090.0430020
+07:36:45 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+07:36:45 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+07:36:45 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+07:37:07 INFO  jclass.SortStonesTest: []
