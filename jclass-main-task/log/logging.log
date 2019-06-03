@@ -23,3 +23,77 @@
 07:36:45 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
 07:36:45 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
 07:37:07 INFO  jclass.SortStonesTest: []
+10:04:30 INFO  jclass.NecklaceTest: quantity of stones: 0
+10:04:30 INFO  jclass.NecklaceTest: Necklace [stones=[]]
+10:04:30 INFO  jclass.NecklaceTest: quantity of stones: 1
+10:04:30 INFO  jclass.NecklaceTest: Necklace [stones=[Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]]]]
+10:04:30 INFO  jclass.NecklaceTest: quantity of stones: 2
+10:04:30 INFO  jclass.NecklaceTest: Necklace [stones=[Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]]
+10:05:00 INFO  jclass.SortStonesTest: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:05:00 INFO  jclass.SortStonesTest: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]]]
+10:08:34 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+10:08:34 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+10:08:34 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+10:08:34 INFO  jclass.StonesFinderTest: [SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:08:49 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+10:08:49 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+10:08:49 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+10:08:49 INFO  jclass.StonesFinderTest: [SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:09:11 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+10:09:11 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+10:09:11 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+10:09:11 INFO  jclass.StonesFinderTest: [SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:09:24 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+10:09:24 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+10:09:24 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+10:09:24 INFO  jclass.StonesFinderTest: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:09:49 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+10:09:49 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+10:09:49 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+10:09:49 INFO  jclass.StonesFinderTest: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:10:02 ERROR jclass.StonesFinderTest: Value of start or end must not be negative
+10:10:02 ERROR jclass.StonesFinderTest: Value of start or end is not a transparency of the stone
+10:10:02 ERROR jclass.StonesFinderTest: Value of start must be less than value of end
+10:10:02 INFO  jclass.StonesFinderTest: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]]]
+10:32:29 INFO  jclass.App: List of stones will be empty
+10:32:29 INFO  jclass.App: Enter the start: 
+10:32:36 INFO  jclass.App: Enter the end: 
+10:32:40 INFO  jclass.App: List of all stones:
+10:32:40 INFO  jclass.App: Necklace [stones=[Gem [feature=SPECIAL_SHININGStone [name=Lapis, cost=100, weight=20, transparency=0.6, valuation=HIGH, rarity=RARE]]]]
+10:32:40 INFO  jclass.App: List of found stones:
+10:32:40 INFO  jclass.App: [Gem [feature=SPECIAL_SHININGStone [name=Lapis, cost=100, weight=20, transparency=0.6, valuation=HIGH, rarity=RARE]]]
+10:32:40 INFO  jclass.App: List of found stones and all stones will be sorted by valuation: 
+10:33:18 INFO  jclass.App: List of stones will be empty
+10:33:18 INFO  jclass.App: Enter the start: 
+10:33:22 INFO  jclass.App: Enter the end: 
+10:33:25 INFO  jclass.App: List of all stones:
+10:33:25 INFO  jclass.App: Necklace [stones=[Gem [feature=SPECIAL_SHININGStone [name=Lapis, cost=100, weight=20, transparency=0.6, valuation=HIGH, rarity=RARE]]]]
+10:33:25 INFO  jclass.App: List of found stones:
+10:33:25 INFO  jclass.App: [Gem [feature=SPECIAL_SHININGStone [name=Lapis, cost=100, weight=20, transparency=0.6, valuation=HIGH, rarity=RARE]]]
+10:33:25 INFO  jclass.App: List of found stones and all stones will be sorted by valuation: 
+10:33:25 INFO  jclass.App: List of all stones:
+10:33:25 INFO  jclass.App: Necklace [stones=[Gem [feature=SPECIAL_SHININGStone [name=Lapis, cost=100, weight=20, transparency=0.6, valuation=HIGH, rarity=RARE]]]]
+10:33:25 INFO  jclass.App: List of found stones:
+10:33:25 INFO  jclass.App: [Gem [feature=SPECIAL_SHININGStone [name=Lapis, cost=100, weight=20, transparency=0.6, valuation=HIGH, rarity=RARE]]]
+10:33:25 INFO  jclass.App: Total weight: 100.0000
+10:33:25 INFO  jclass.App: Total cost: 100
+10:36:05 INFO  jclass.App: Enter the start: 
+10:36:10 INFO  jclass.App: Enter the end: 
+10:36:11 INFO  jclass.App: List of all stones:
+10:36:11 INFO  jclass.App: Necklace [stones=[SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]]
+10:36:11 INFO  jclass.App: List of found stones:
+10:36:11 INFO  jclass.App: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:36:11 INFO  jclass.App: List of found stones and all stones will be sorted by valuation: 
+10:36:11 INFO  jclass.App: List of all stones:
+10:36:11 INFO  jclass.App: Necklace [stones=[SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]]
+10:36:11 INFO  jclass.App: List of found stones:
+10:36:11 INFO  jclass.App: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]
+10:36:11 INFO  jclass.App: Total weight: 1150.0000
+10:36:11 INFO  jclass.App: Total cost: 1280
+10:38:50 INFO  jclass.App: Enter the start: 
+10:38:53 INFO  jclass.App: Enter the end: 
+10:38:55 INFO  jclass.App: List of all stones:
+10:38:55 INFO  jclass.App: Necklace [stones=[SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]], SemipreciousStone [toString()=Stone [name=Log, cost=130, weight=100, transparency=0.4, valuation=MIDDLE, rarity=FREQUENT]]]]
+10:38:55 INFO  jclass.App: List of found stones:
+10:38:55 INFO  jclass.App: [SemipreciousStone [toString()=Stone [name=Lopi, cost=150, weight=120, transparency=0.6, valuation=LOW, rarity=FREQUENT]], Gem [feature=SPECIAL_SHININGStone [name=Brilliant, cost=1000, weight=10, transparency=0.7, valuation=HIGH, rarity=RARE]]]
+10:38:55 INFO  jclass.App: List of found stones and all stones will be sorted by valuation: 

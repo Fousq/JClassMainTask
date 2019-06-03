@@ -23,7 +23,7 @@ public class Necklace {
 	}
 	
 	public List<Stone> getStones() {
-		return Collections.unmodifiableList(stones);
+		return stones;
 	}
 	
 	public void setStones(List<Stone> stones) {

@@ -3,12 +3,14 @@ package kz.zhanbolat.jclass.calculator;
 import java.math.BigDecimal;
 import java.util.List;
 
+import kz.zhanbolat.jclass.entity.Stone;
+
 public class TotalCostCalculator {
 
-	public static BigDecimal calculate(List<Number> numbers) {
+	public static BigDecimal calculate(List<Stone> stones) {
 		BigDecimal totalCost = BigDecimal.ZERO;
-		for (Number number : numbers) {
-			totalCost = totalCost.add(BigDecimal.valueOf(number.doubleValue()));
+		for (Stone stone : stones) {
+			totalCost = totalCost.add(BigDecimal.valueOf(stone.getCost().intValue()));
 		}
 		return totalCost;
 	}

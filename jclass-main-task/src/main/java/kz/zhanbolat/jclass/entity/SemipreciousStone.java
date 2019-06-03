@@ -13,6 +13,11 @@ public class SemipreciousStone extends Stone {
 		super(name, cost, weight, transparency, valuation, rarity);
 	}
 
+	public SemipreciousStone(String name, long cost, int weight, double transparency, 
+			StoneValuationType valuation, RarityType rarity) throws StoneException {
+		super(name, cost, weight, transparency, valuation, rarity);
+	}
+	
 	@Override
 	public void setRarity(RarityType rarity) throws StoneException {
 		if (rarity == RarityType.RARE) {
